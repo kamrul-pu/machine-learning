@@ -161,3 +161,4 @@ cython_debug/
 
 # Ingone large file
 credit_data.csv
+train.csv
