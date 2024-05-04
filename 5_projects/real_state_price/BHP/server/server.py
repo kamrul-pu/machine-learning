@@ -1,5 +1,8 @@
 from flask import Flask, request, jsonify
+# from flask_cors import CORS
+
 import util
+
 app = Flask(__name__)
 
 @app.route("/get-location-names")
@@ -21,7 +24,7 @@ def predict_home_price():
         "estimated_price": util.get_estimated_price(location, total_sqft, bath, bhk)
     })
 
-    response.headers.add("Access-Contraol-Allow-Origin", "*")
+    response.headers.add("Access-Control-Allow-Origin", "*")
 
     return response
 
