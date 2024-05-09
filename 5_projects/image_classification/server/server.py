@@ -4,16 +4,16 @@ import util  # Importing custom utility module named 'util' for image classifica
 app = Flask(__name__)  # Create a Flask web application instance
 
 
-@app.route("/")
-def home():
-    return jsonify(
-        {
-            "name": "Celebrity Image Classifier",
-            "version": "1.0.0",
-            "ml_algo": "SVM",  # Machine learning algorithm used (Support Vector Machine)
-            "url": "/classify-image",  # Endpoint URL for image classification
-        }
-    )
+# @app.route("/")
+# def home():
+#     return jsonify(
+#         {
+#             "name": "Celebrity Image Classifier",
+#             "version": "1.0.0",
+#             "ml_algo": "SVM",  # Machine learning algorithm used (Support Vector Machine)
+#             "url": "/classify-image",  # Endpoint URL for image classification
+#         }
+#     )
 
 
 @app.route("/classify-image", methods=["GET", "POST"])
