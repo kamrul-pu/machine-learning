@@ -1,0 +1,11 @@
+Dear students,
+
+You will find all the resources (codes, datasets and slides)  of our Machine Learning A-Z course right here:
+
+https://www.superdatascience.com/pages/machine-learning
+
+We can't wait to see you in the practical lectures.
+
+Until then, enjoy Machine Learning!
+
+Hadelin & Kirill
